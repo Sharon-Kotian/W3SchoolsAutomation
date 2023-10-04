@@ -38,6 +38,7 @@ public class AddToCart {
 				.click();
 
 		// Fill in email
+		Thread.sleep(5000);
 		dr.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("sharonkotian2000@gmail.com");
 
 		// select Credit/Debit card option
